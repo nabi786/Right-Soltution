@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Solution</title>
+    <link rel="icon" href="/public/images/logo/SCHOOL LOGO.png">
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- bootstrap CDN LINK -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- owl carousel setting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="/public/css/index.css">
+
+
+
+    <!-- Jquery css file -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- jquery files -->
+    <script src="/public/js/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body id="body">
+    <!-- header section -->
+
+    <!-- back header section -->
+    
+
+
+
+    <!-- navigation header -->
+    <%- include("partials/header.ejs") %>
+
+    
+
+    <!-- main hero sectin -->
+    <div class="secondheoSection" style="background-image: url('/public/images/B3.jpg');">
+        <div class="secondheoSectionContent">
+            <h5>Register</h5>
+            <span>Home / Register</span>
+        </div>
+    </div>
+
+
+
+    <!-- main content -->
+    <section class="permanentSection container">
+        
+        <div class="sectionTitle">
+            <h3>Login</h3>
+            <span class="line"></span>
+        </div>
+        <div class="formBox loginForm">
+            <!-- form -->
+            <form action="/signup" method="post" class="form">
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <input type="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <input type="password" placeholder="password" class="form-control">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <input type="submit" value="Log in" class="formSubmitBtn" style="padding: 8px;">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p style="text-align: center;">if you already have an account so please <a href="Singup.html">Register</a></p>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+         
+    </section>
+
+
+    <div class="scrollTopBtnSection">
+        <img id="scrollTop" class="scrollTopImg" src="https://35zdx72gxff41x10fm1rg5xo-wpengine.netdna-ssl.com/wp-content/themes/pallikoodam/images/totop.png">
+    </div>
+   
+    <!-- footer section -->
+    <section class="footerSection">
+        <footer id="footer">
+            <!-- contacts -->
+            <div class="contactsDetials">
+                <img src="/public/images/logo/CENTRE NEW LOGO PNG 2.png">
+                <div class="footerAddress">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+
+                        <span>
+                            Address: Near Eye Hospital Umerkot
+                        </span>
+                    </div>
+                    <div>
+                        <i class="far fa-envelope"></i>
+
+                        <span>
+                            Email: rightsolution@gmail.com
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+
+                        <span>
+                            +923423597787
+                        </span>
+                    </div>
+                </div>
+
+                <!-- <div class="footerSocialMediaIcons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                </div> -->
+            </div>
+
+            <!-- pages -->
+            <div class="pagesDetails">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            Facilites
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pagesDetails">
+                <h3>Categories</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            School
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Coaching
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Computer Centre
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+            <!-- rescentPost -->
+            <div class="subsciptionBox">
+
+                <h3>Subscription</h3>
+                <p></p>Don't miss to subscribe to our news feed, <br>Get the latest updates from us!</p>
+                <div class="subscription">
+                    <input type="email" placeholder="rightsolution@gmail.com">
+                    <button class="subsBtn" id="subscribeBtn"><i class="far fa-envelope"></i> Subscribe</button>
+                </div>
+                <div class="footerSocialMediaIcons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                </div>
+
+            </div>
+
+        </footer>
+        <p class="copyright">
+            © 2021 Right Solution – All Rights Reserved
+        </p>
+    </section>
+
+
+
+
+
+
+
+    <!-- jquery file -->
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <!-- Slick slider JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script src="/public/js/index.js"></script>
+
+    
+</body>
+
+</html>
