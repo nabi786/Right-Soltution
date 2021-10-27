@@ -40,8 +40,6 @@ app.get('/signup', function(req,res){
     res.render('singup')
 })
 
-app.listen(port, function(err,data){
-    if(err) throw err;
-
+app.listen(port, function(){
     console.log("server has been started")
 })
