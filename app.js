@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 // defining path
 app.use(express.static(path.join(__dirname, 'public')));
 
-n
+
 app.get('/', function(req,res){
     res.render('index')
 })
