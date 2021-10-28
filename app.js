@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var port = process.env.port || 8000
+var port = process.env.port || 3000
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
