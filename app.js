@@ -37,7 +37,7 @@ app.get('/login', function(req,res){
 })
 
 app.get('/signup', function(req,res){
-    res.render('singup')
+    res.render('signup')
 })
 
 app.listen(port, function(){
